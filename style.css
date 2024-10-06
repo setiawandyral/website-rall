@@ -1,0 +1,80 @@
+*,
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+container{}
+
+
+.contant-navbar{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    background-color: rgb(6, 2, 9);
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(234, 227, 227);
+    font-size: 30px;
+}
+
+.a-navbar:hover {
+    background-color: rgb(245, 244, 250);
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+}
+
+.container-contact{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.b-contant{
+    background-color: whitesmoke;
+    color: rgb(9, 1, 1);
+    text-decoration: none;
+    font-size: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-spg{
+    width: 50%;
+    height: 50%;
+}
+
+.container-footer{
+    height: 10vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-well{
+    font-size: 35px;
+    color: blueviolet;
+}
